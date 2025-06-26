@@ -15,14 +15,14 @@ const HeroBanner = () => {
         <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-in">
           <Button 
             size="lg" 
-            className="bg-gbu-gold text-gbu-blue hover:bg-yellow-400 font-semibold px-8 py-3"
+            className=" bg-gbu-gold text-black hover:bg-white hover:text-gbu-blue px-8 py-3"
           >
             Browse Facilities
           </Button>
           <Button 
             size="lg" 
             variant="outline" 
-            className="border-white text-white hover:bg-white hover:text-gbu-blue px-8 py-3"
+            className=" bg-gbu-gold text-black hover:bg-white hover:text-gbu-blue px-8 py-3"
           >
             Check Availability
           </Button>
