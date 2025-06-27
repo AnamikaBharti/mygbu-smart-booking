@@ -293,9 +293,9 @@ export const facilities: Facility[] = [
     },
     description: 'Fully equipped commercial kitchen and dining hall for large events and conferences.',
     images: [
-      'https://images.unsplash.com/photo-1473177104440-ffee2f376098?w=800',
-      'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800',
-      'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800'
+          "/assets/guest_house_dining_1.jpg",
+      "/assets/convention_2.jpg",
+      "/assets/convention_3.jpg"
     ],
     amenities: ['Commercial Kitchen', 'Dining Tables', 'AC', 'Serving Area', 'Storage'],
     timeSlots: ['Breakfast: 7:00-10:00 AM', 'Lunch: 12:00-3:00 PM', 'Dinner: 7:00-10:00 PM'],
@@ -338,9 +338,9 @@ export const facilities: Facility[] = [
     },
     description: 'Premium AC suite with living area, bedroom, attached bathroom, and modern amenities.',
     images: [
-      'https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=800',
-      'https://images.unsplash.com/photo-1473177104440-ffee2f376098?w=800',
-      'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800'
+          "/assets/guest_house_hall_1.jpg",
+      "/assets/convention_1.jpg",
+      "/assets/guest_house_1.jpg"
     ],
     amenities: ['AC', 'TV', 'WiFi', 'Mini Fridge', 'Tea/Coffee Maker', 'Attached Bathroom'],
     timeSlots: ['Check-in: 2:00 PM', 'Check-out: 11:00 AM'],
@@ -387,9 +387,9 @@ export const facilities: Facility[] = [
     },
     description: 'Comfortable AC rooms with essential amenities for a pleasant stay.',
     images: [
-      'https://images.unsplash.com/photo-1473177104440-ffee2f376098?w=800',
-      'https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=800',
-      'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800'
+         "/assets/convention_1.jpg",
+      "/assets/guest_house_hall_1.jpg"
+      
     ],
     amenities: ['AC', 'TV', 'WiFi', 'Attached Bathroom', 'Study Table'],
     timeSlots: ['Check-in: 2:00 PM', 'Check-out: 11:00 AM'],
@@ -431,9 +431,9 @@ export const facilities: Facility[] = [
     },
     description: 'Executive accommodation for delegations and VIP guests with premium facilities.',
     images: [
-      'https://images.unsplash.com/photo-1721322800607-8c38375eef04?w=800',
-      'https://images.unsplash.com/photo-1473177104440-ffee2f376098?w=800',
-      'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800'
+         "/assets/guest_house_1.jpg",
+      "/assets/guest_house_2.jpg",
+      
     ],
     amenities: ['AC', 'Premium Bedding', 'Work Desk', 'Mini Bar', 'Conference Access'],
     timeSlots: ['Check-in: 12:00 PM', 'Check-out: 12:00 PM'],
