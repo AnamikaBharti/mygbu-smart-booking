@@ -5,13 +5,13 @@ export const facilities: Facility[] = [
   {
     id: 'aud-01',
     name: 'Auditorium-01',
-    capacity: 300,
+    capacity: 1550,
     type: 'auditorium',
     rentRate: { 
-      peak: 15000, 
-      offPeak: 12000, 
-      halfDay: 8000, 
-      fullDay: 15000,
+      peak: 295000, 
+      offPeak:  147500, 
+      halfDay: 206500, 
+      fullDay: 295000,
       employee: 10000,
       student: 5000,
       outsider: 20000
@@ -19,8 +19,8 @@ export const facilities: Facility[] = [
     description: 'Main auditorium with state-of-the-art audio-visual equipment and comfortable seating for 300 guests.',
     images: [
       "/assets/audi-01.jpg",
-      "/assets/audi-02.jpg",
-      "/assets/audi-04.jpg"
+      "https://www.gbu.ac.in/facilities/assets/images/audi-01_1.jpeg",
+      "https://www.gbu.ac.in/facilities/assets/images/audi-01_1.jpeg"
     ],
     amenities: ['AC', 'Projector', 'Sound System', 'Stage Lighting', 'Green Room'],
     timeSlots: ['9:00 AM - 1:00 PM', '2:00 PM - 6:00 PM', '7:00 PM - 11:00 PM'],
@@ -64,18 +64,18 @@ export const facilities: Facility[] = [
     type: 'auditorium',
     rentRate: { 
       peak: 12000, 
-      offPeak: 10000, 
-      halfDay: 6000, 
-      fullDay: 12000,
+      offPeak: 34500, 
+      halfDay: 82600, 
+      fullDay:  129800,
       employee: 8000,
       student: 4000,
       outsider: 16000
     },
     description: 'Secondary auditorium perfect for smaller events and presentations.',
     images: [
-       "/assets/audi-04.jpg",
-      "/assets/audi-02.jpg",
-      "/assets/audi-01.jpg"
+       "https://www.gbu.ac.in/facilities/assets/images/audi-02_1.jpeg",
+      "https://www.gbu.ac.in/facilities/assets/images/audi-02_2.jpeg",
+      "https://www.gbu.ac.in/facilities/assets/images/audi-02_1.jpeg"
     ],
     amenities: ['AC', 'Projector', 'Sound System', 'Stage Lighting'],
     timeSlots: ['9:00 AM - 1:00 PM', '2:00 PM - 6:00 PM', '7:00 PM - 11:00 PM'],
@@ -96,32 +96,33 @@ export const facilities: Facility[] = [
       'Damage charges as per assessment',
       'Fire safety protocols must be followed'
     ],
-    cancellationPolicy: [
-      'Free cancellation 5+ days before',
-      '50% refund for 2-4 days notice',
-      'No refund for same-day cancellation'
+     cancellationPolicy: [
+      "Booking cancelled one month earlier: No charges",
+"Booking cancelled before 15 days	: 10% of the entire booking",
+"Booking cancelled before 02 days: 	15% of the entire booking",
+"Last moment cancellation (24 hrs.): 	20% of the entire booking"
     ]
   },
 
   {
     id: 'aud-03',
     name: 'Auditorium-03',
-    capacity: 200,
+    capacity: 450,
     type: 'auditorium',
     rentRate: { 
-      peak: 10000, 
-      offPeak: 8000, 
-      halfDay: 5000, 
-      fullDay: 10000,
+      peak: 141600, 
+      offPeak:  47200, 
+      halfDay: 82600, 
+      fullDay:  141600,
       employee: 6000,
       student: 3000,
       outsider: 13000
     },
     description: 'Compact auditorium ideal for departmental events and workshops.',
     images: [
-        "/assets/audi-02.jpg",
-      "/assets/audi-01.jpg",
-      "/assets/audi-04.jpg"
+        "https://www.gbu.ac.in/facilities/assets/images/audi-03_1.jpeg",
+      "https://www.gbu.ac.in/facilities/assets/images/audi-03_2.jpeg",
+      "https://www.gbu.ac.in/facilities/assets/images/audi-03_1.jpeg"
     ],
     amenities: ['AC', 'Projector', 'Basic Sound System'],
     timeSlots: ['9:00 AM - 1:00 PM', '2:00 PM - 6:00 PM'],
@@ -140,30 +141,32 @@ export const facilities: Facility[] = [
       'No food allowed inside',
       'Cleanup responsibility of organizer'
     ],
-    cancellationPolicy: [
-      'Free cancellation 3+ days before',
-      '25% refund for 1-2 days notice'
+     cancellationPolicy: [
+      "Booking cancelled one month earlier: No charges",
+"Booking cancelled before 15 days	: 10% of the entire booking",
+"Booking cancelled before 02 days: 	15% of the entire booking",
+"Last moment cancellation (24 hrs.): 	20% of the entire booking"
     ]
   },
 
   {
     id: 'aud-04',
     name: 'Auditorium-04',
-    capacity: 180,
+    capacity: 100,
     type: 'auditorium',
     rentRate: { 
-      peak: 8000, 
-      offPeak: 6000, 
-      halfDay: 4000, 
-      fullDay: 8000,
+      peak: 118000, 
+      offPeak: 29500, 
+      halfDay: 76700, 
+      fullDay: 118000,
       employee: 5000,
       student: 2500,
       outsider: 10000
     },
     description: 'Modern auditorium with advanced presentation facilities.',
     images: [
-      "/assets/audi-01.jpg",
-      "/assets/audi-02.jpg",
+      "https://www.gbu.ac.in/facilities/assets/images/audi-04_3.jpeg",
+      "https://www.gbu.ac.in/facilities/assets/images/audi-04_1.jpeg",
       "/assets/audi-04.jpg"
     ],
     amenities: ['AC', 'Smart Board', 'Wireless Mic', 'Recording Setup'],
@@ -183,31 +186,33 @@ export const facilities: Facility[] = [
       'Recording permission required separately',
       'Intellectual property rights respected'
     ],
-    cancellationPolicy: [
-      'Flexible cancellation for academic events',
-      'Commercial events: standard policy applies'
+     cancellationPolicy: [
+      "Booking cancelled one month earlier: No charges",
+"Booking cancelled before 15 days	: 10% of the entire booking",
+"Booking cancelled before 02 days: 	15% of the entire booking",
+"Last moment cancellation (24 hrs.): 	20% of the entire booking"
     ]
   },
 
   {
     id: 'aud-05',
     name: 'Auditorium-05',
-    capacity: 150,
+    capacity: 100,
     type: 'auditorium',
     rentRate: { 
-      peak: 6000, 
-      offPeak: 4500, 
-      halfDay: 3000, 
-      fullDay: 6000,
+      peak: 118000, 
+      offPeak: 30000, 
+      halfDay: 76700, 
+      fullDay: 118000,
       employee: 3500,
       student: 2000,
       outsider: 8000
     },
     description: 'Intimate auditorium perfect for seminars and small conferences.',
     images: [
-       "/assets/audi-04.jpg",
-      "/assets/audi-02.jpg",
-      "/assets/audi-01.jpg"
+       "https://www.gbu.ac.in/facilities/assets/images/audi-05_1.jpeg",
+      "https://www.gbu.ac.in/facilities/assets/images/audi-05_2.jpeg",
+      "https://www.gbu.ac.in/facilities/assets/images/audi-05_3.jpeg"
     ],
     amenities: ['AC', 'Projector', 'Podium', 'Microphone'],
     timeSlots: ['9:00 AM - 1:00 PM', '2:00 PM - 6:00 PM'],
@@ -226,9 +231,11 @@ export const facilities: Facility[] = [
       'Catering allowed with approval',
       'Setup assistance available'
     ],
-    cancellationPolicy: [
-      'Same-day cancellation: 50% charge',
-      'Weather cancellation: full refund'
+     cancellationPolicy: [
+      "Booking cancelled one month earlier: No charges",
+"Booking cancelled before 15 days	: 10% of the entire booking",
+"Booking cancelled before 02 days: 	15% of the entire booking",
+"Last moment cancellation (24 hrs.): 	20% of the entire booking"
     ]
   },
 
@@ -239,10 +246,10 @@ export const facilities: Facility[] = [
     capacity: 100,
     type: 'conference',
     rentRate: { 
-      peak: 8000, 
-      offPeak: 6000, 
-      halfDay: 4000, 
-      fullDay: 8000,
+      peak:  88500, 
+      offPeak: 30000, 
+      halfDay: 47200, 
+      fullDay:  88500,
       employee: 5000,
       student: 2500,
       outsider: 10000
@@ -250,8 +257,7 @@ export const facilities: Facility[] = [
     description: 'Executive conference hall with boardroom setup and advanced AV facilities.',
     images: [
       "/assets/audi-conference_1.jpg",
-      "/assets/audi-02.jpg",
-      "/assets/audi-04.jpg"
+     
     ],
     amenities: ['AC', 'Conference Table', 'Projector', 'Video Conferencing', 'WiFi'],
     timeSlots: ['9:00 AM - 1:00 PM', '2:00 PM - 6:00 PM', '7:00 PM - 10:00 PM'],
@@ -267,35 +273,36 @@ export const facilities: Facility[] = [
       'Parking for 30 vehicles'
     ],
     termsConditions: [
-      'Corporate dress code recommended',
-      'Technical support included',
-      'Recording equipment available on request'
+      'Cleaning Charges Per Day – Rs. 5,900.00 (Incl. GST)',
+      'Security Money – Rs. 50,000.00 (Rs. Fifty Thousand Only) in favour of Gautam Buddha University, Greater Noida through Cheque/Demand Draft.',
+      'DG Charges – In Case of Failure of Light, Rs. 5,000/- per hour will charged Separately',
+      'Any other Charges as per other terms & conditions will be applicable'
     ],
-    cancellationPolicy: [
-      'Business hours cancellation policy',
-      '24-hour notice required for full refund'
+     cancellationPolicy: [
+      "Booking cancelled one month earlier: No charges",
+"Booking cancelled before 15 days	: 10% of the entire booking",
+"Booking cancelled before 02 days: 	15% of the entire booking",
+"Last moment cancellation (24 hrs.): 	20% of the entire booking"
     ]
   },
 
   {
     id: 'convention-dining',
     name: 'Convention Center Kitchen & Dining',
-    capacity: 200,
+    capacity: 150,
     type: 'dining',
     rentRate: { 
       peak: 15000, 
       offPeak: 12000, 
-      halfDay: 8000, 
-      fullDay: 15000,
+      halfDay: 47200, 
+      fullDay: 88500,
       employee: 10000,
       student: 6000,
       outsider: 20000
     },
     description: 'Fully equipped commercial kitchen and dining hall for large events and conferences.',
     images: [
-          "/assets/guest_house_dining_1.jpg",
-      "/assets/convention_2.jpg",
-      "/assets/convention_3.jpg"
+           "https://www.gbu.ac.in/facilities/assets/images/kitchen-convention_1.jpeg"
     ],
     amenities: ['Commercial Kitchen', 'Dining Tables', 'AC', 'Serving Area', 'Storage'],
     timeSlots: ['Breakfast: 7:00-10:00 AM', 'Lunch: 12:00-3:00 PM', 'Dinner: 7:00-10:00 PM'],
@@ -311,13 +318,15 @@ export const facilities: Facility[] = [
       'External catering allowed with permission'
     ],
     termsConditions: [
-      'Food safety standards must be maintained',
-      'Kitchen equipment usage training provided',
-      'Fire safety protocols strictly enforced'
+       "Cleaning Charges Per Day – Rs. 5,900.00 (Incl. GST)",
+"Security Money – Rs. 50,000.00 (Rs. Fifty Thousand Only) in favour of Gautam Buddha University, Greater Noida through Cheque/Demand Draft.",
+"Any other Charges as per other terms & conditions will be applicable"
     ],
     cancellationPolicy: [
-      'Catering cancellation 48+ hours: 80% refund',
-      'Menu changes allowed up to 24 hours before'
+      "Booking cancelled one month earlier: No charges",
+"Booking cancelled before 15 days	: 10% of the entire booking",
+"Booking cancelled before 02 days: 	15% of the entire booking",
+"Last moment cancellation (24 hrs.): 	20% of the entire booking"
     ]
   },
 
@@ -355,15 +364,16 @@ export const facilities: Facility[] = [
       'Room service available on request',
       'Parking facility available'
     ],
-    termsConditions: [
-      'Smoking strictly prohibited',
-      'Pets not allowed',
-      'Damage charges applicable',
-      'Quiet hours: 10:00 PM to 6:00 AM'
+      termsConditions: [
+      'GST as applicable to be paid extra.',
+      'For Bulk Booking, in case of light failure, D.G. charges @ ₹5000/- per hour will be charged and Central AC facility will not be available on D.G.',
+      'Security Money/Cleaning Charges & other charges etc. mentioned in other terms & Conditions will be applicable.'
     ],
-    cancellationPolicy: [
-      'Free cancellation 24 hours before check-in',
-      'No-show: Full booking amount forfeited'
+      cancellationPolicy: [
+      "Booking cancelled one month earlier: No charges",
+"Booking cancelled before 15 days	: 10% of the entire booking",
+"Booking cancelled before 02 days: 	15% of the entire booking",
+"Last moment cancellation (24 hrs.): 	20% of the entire booking"
     ],
     downloadablePdfs: {
       rateChart: '/pdfs/guesthouse-rates.pdf',
@@ -404,13 +414,15 @@ export const facilities: Facility[] = [
       'Common area access included'
     ],
     termsConditions: [
-      'Standard guest house policies apply',
-      'Maximum 2 guests per room',
-      'Extra charges for additional guests'
+      'GST as applicable to be paid extra.',
+      'For Bulk Booking, in case of light failure, D.G. charges @ ₹5000/- per hour will be charged and Central AC facility will not be available on D.G.',
+      'Security Money/Cleaning Charges & other charges etc. mentioned in other terms & Conditions will be applicable.'
     ],
-    cancellationPolicy: [
-      'Standard cancellation policy',
-      'Refund as per university guidelines'
+     cancellationPolicy: [
+      "Booking cancelled one month earlier: No charges",
+"Booking cancelled before 15 days	: 10% of the entire booking",
+"Booking cancelled before 02 days: 	15% of the entire booking",
+"Last moment cancellation (24 hrs.): 	20% of the entire booking"
     ]
   },
 
@@ -448,14 +460,16 @@ export const facilities: Facility[] = [
       'Conference hall access included',
       'Dedicated support staff'
     ],
-    termsConditions: [
-      'Official delegation use only',
-      'University approval mandatory',
-      'Extended stay options available'
+     termsConditions: [
+      'GST as applicable to be paid extra.',
+      'For Bulk Booking, in case of light failure, D.G. charges @ ₹5000/- per hour will be charged and Central AC facility will not be available on D.G.',
+      'Security Money/Cleaning Charges & other charges etc. mentioned in other terms & Conditions will be applicable.'
     ],
-    cancellationPolicy: [
-      'Delegation bookings: flexible policy',
-      'Emergency provisions available'
+     cancellationPolicy: [
+      "Booking cancelled one month earlier: No charges",
+"Booking cancelled before 15 days	: 10% of the entire booking",
+"Booking cancelled before 02 days: 	15% of the entire booking",
+"Last moment cancellation (24 hrs.): 	20% of the entire booking"
     ]
   },
 
@@ -493,12 +507,12 @@ export const facilities: Facility[] = [
       'Spectator management responsibility of the organizer',
       'Weather-related cancellations follow university policy'
     ],
-    cancellationPolicy: [
-      'Tournament cancellation: 15+ days notice for full refund',
-      'Practice session cancellation: 24 hours notice required',
-      'Weather cancellation: Rescheduling allowed without charges',
-      'Equipment damage charges as per assessment',
-      'No-show policy: 50% of booking amount forfeited'
+     cancellationPolicy: [
+      'Same-day cancellation: No refund',
+      '24-48 hours notice: 50% refund',
+      '48+ hours notice: 90% refund',
+      'Equipment damage charges applicable',
+      'Membership holders get priority rescheduling'
     ]
   },
 
@@ -535,12 +549,12 @@ export const facilities: Facility[] = [
       'Security arrangements for spectators mandatory',
       'Post-event ground cleanup responsibility of organizers'
     ],
-    cancellationPolicy: [
-      'Match cancellation: 7+ days notice for 80% refund',
-      'Training session: 48 hours notice for full refund',
-      'Rain cancellation: Free rescheduling within 30 days',
-      'Turf damage penalty as per ground assessment',
-      'Late cancellation fee: 25% of booking amount'
+     cancellationPolicy: [
+      'Same-day cancellation: No refund',
+      '24-48 hours notice: 50% refund',
+      '48+ hours notice: 90% refund',
+      'Equipment damage charges applicable',
+      'Membership holders get priority rescheduling'
     ]
   },
 
