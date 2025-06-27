@@ -10,6 +10,9 @@ import UserRoleSelector from '@/components/UserRoleSelector';
 import { facilities } from '@/data/facilities';
 import { Facility, BookingForm as BookingFormType } from '@/types/facility';
 import { useToast } from '@/hooks/use-toast';
+import Primarynavbar from '@/components/Primarynavbar';
+import Navbar from '@/components/Navbar';
+import Footer from '@/components/Footer';
 
 const Index = () => {
   const [filteredFacilities, setFilteredFacilities] = React.useState<Facility[]>(facilities);
@@ -82,9 +85,11 @@ const Index = () => {
     setSelectedDate(undefined);
   };
 
-  return (
-    <div className="min-h-screen bg-gray-50">
-      <Header />
+  return (<>
+    <div className="min-h-screen bg-gray-50 pt-[110px]">
+      <Primarynavbar/>
+      <Navbar />
+
       <HeroBanner />
       
       <main className="container mx-auto px-4 py-12">
@@ -254,15 +259,9 @@ const Index = () => {
         )}
       </main>
       
-      <footer className="bg-gbu-blue text-white py-8 mt-16">
-        <div className="container mx-auto px-4 text-center">
-          <p>&copy; 2024 Gautam Buddha University. All rights reserved.</p>
-          <p className="mt-2 text-sm opacity-80">
-            For technical support, contact: facilities@gbu.ac.in
-          </p>
-        </div>
-      </footer>
+      <Footer />
     </div>
+    </>
   );
 };
 
