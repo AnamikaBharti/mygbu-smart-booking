@@ -18,9 +18,9 @@ export const facilities: Facility[] = [
     },
     description: 'Main auditorium with state-of-the-art audio-visual equipment and comfortable seating for 300 guests.',
     images: [
-      'https://images.unsplash.com/photo-1473177104440-ffee2f376098?w=800',
-      'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800',
-      'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800'
+      "/assets/audi-01.jpg",
+      "/assets/audi-02.jpg",
+      "/assets/audi-04.jpg"
     ],
     amenities: ['AC', 'Projector', 'Sound System', 'Stage Lighting', 'Green Room'],
     timeSlots: ['9:00 AM - 1:00 PM', '2:00 PM - 6:00 PM', '7:00 PM - 11:00 PM'],
@@ -73,9 +73,9 @@ export const facilities: Facility[] = [
     },
     description: 'Secondary auditorium perfect for smaller events and presentations.',
     images: [
-      'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800',
-      'https://images.unsplash.com/photo-1473177104440-ffee2f376098?w=800',
-      'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800'
+       "/assets/audi-04.jpg",
+      "/assets/audi-02.jpg",
+      "/assets/audi-01.jpg"
     ],
     amenities: ['AC', 'Projector', 'Sound System', 'Stage Lighting'],
     timeSlots: ['9:00 AM - 1:00 PM', '2:00 PM - 6:00 PM', '7:00 PM - 11:00 PM'],
@@ -119,9 +119,9 @@ export const facilities: Facility[] = [
     },
     description: 'Compact auditorium ideal for departmental events and workshops.',
     images: [
-      'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800',
-      'https://images.unsplash.com/photo-1473177104440-ffee2f376098?w=800',
-      'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800'
+        "/assets/audi-02.jpg",
+      "/assets/audi-01.jpg",
+      "/assets/audi-04.jpg"
     ],
     amenities: ['AC', 'Projector', 'Basic Sound System'],
     timeSlots: ['9:00 AM - 1:00 PM', '2:00 PM - 6:00 PM'],
@@ -162,9 +162,9 @@ export const facilities: Facility[] = [
     },
     description: 'Modern auditorium with advanced presentation facilities.',
     images: [
-      'https://images.unsplash.com/photo-1473177104440-ffee2f376098?w=800',
-      'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800',
-      'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800'
+      "/assets/audi-01.jpg",
+      "/assets/audi-02.jpg",
+      "/assets/audi-04.jpg"
     ],
     amenities: ['AC', 'Smart Board', 'Wireless Mic', 'Recording Setup'],
     timeSlots: ['10:00 AM - 2:00 PM', '3:00 PM - 7:00 PM'],
@@ -205,9 +205,9 @@ export const facilities: Facility[] = [
     },
     description: 'Intimate auditorium perfect for seminars and small conferences.',
     images: [
-      'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800',
-      'https://images.unsplash.com/photo-1473177104440-ffee2f376098?w=800',
-      'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800'
+       "/assets/audi-04.jpg",
+      "/assets/audi-02.jpg",
+      "/assets/audi-01.jpg"
     ],
     amenities: ['AC', 'Projector', 'Podium', 'Microphone'],
     timeSlots: ['9:00 AM - 1:00 PM', '2:00 PM - 6:00 PM'],
@@ -249,9 +249,9 @@ export const facilities: Facility[] = [
     },
     description: 'Executive conference hall with boardroom setup and advanced AV facilities.',
     images: [
-      'https://images.unsplash.com/photo-1473177104440-ffee2f376098?w=800',
-      'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800',
-      'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800'
+      "/assets/audi-conference_1.jpg",
+      "/assets/audi-02.jpg",
+      "/assets/audi-04.jpg"
     ],
     amenities: ['AC', 'Conference Table', 'Projector', 'Video Conferencing', 'WiFi'],
     timeSlots: ['9:00 AM - 1:00 PM', '2:00 PM - 6:00 PM', '7:00 PM - 10:00 PM'],
@@ -468,9 +468,9 @@ export const facilities: Facility[] = [
     rentRate: { peak: 8000, offPeak: 6000 },
     description: 'Full-size cricket ground with pavilion and spectator seating. Perfect for tournaments and matches.',
     images: [
-      'https://images.unsplash.com/photo-1501854140801-50d01698950b?w=800',
-      'https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800',
-      'https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?w=800'
+       "/assets/sports2.jpg",
+      "/assets/sports1.jpg",
+      "/assets/sports3.jpg"
     ],
     amenities: ['Pavilion', 'Scoreboard', 'Floodlights', 'Changing Rooms', 'Equipment Storage'],
     timeSlots: ['6:00 AM - 12:00 PM', '2:00 PM - 8:00 PM'],
@@ -510,9 +510,9 @@ export const facilities: Facility[] = [
     rentRate: { peak: 10000, offPeak: 7500 },
     description: 'FIFA standard football ground with natural turf and modern facilities.',
     images: [
-      'https://images.unsplash.com/photo-1501854140801-50d01698950b?w=800',
-      'https://images.unsplash.com/photo-1523712999610-f77fbcfc3843?w=800',
-      'https://images.unsplash.com/photo-1506744038136-46273834b3fb?w=800'
+         "/assets/sports3.jpg",
+      "/assets/sports1.jpg",
+      "/assets/sports2.jpg"
     ],
     amenities: ['Natural Turf', 'Floodlights', 'Goal Posts', 'Spectator Stand', 'Changing Rooms'],
     timeSlots: ['6:00 AM - 10:00 AM', '4:00 PM - 8:00 PM'],
@@ -552,9 +552,9 @@ export const facilities: Facility[] = [
     rentRate: { peak: 3000, offPeak: 2000 },
     description: 'Indoor basketball court with wooden flooring and professional lighting.',
     images: [
-      'https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=800',
-      'https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?w=800',
-      'https://images.unsplash.com/photo-1518770660439-4636190af475?w=800'
+       "/assets/sports2.jpg",
+    
+      "/assets/sports3.jpg"
     ],
     amenities: ['Wooden Floor', 'Professional Hoops', 'Scoreboard', 'AC', 'Spectator Seating'],
     timeSlots: ['6:00 AM - 9:00 AM', '10:00 AM - 1:00 PM', '3:00 PM - 6:00 PM', '7:00 PM - 10:00 PM'],
